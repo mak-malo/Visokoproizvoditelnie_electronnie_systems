@@ -1,0 +1,7 @@
+Отправка одного бита микроконтролером pic16f84a
+
+BSF STATUS, RP0
+MOVLW 0x00
+MOVWF TRISB
+BCF STATUS, RP0
+BSF PORTB, 0
