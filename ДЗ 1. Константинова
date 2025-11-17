@@ -1,7 +1,0 @@
-# ДЗ №1. Программирование микроконтроллера на отправку одного бита
-
-BSF STATUS, RP0
-MOVLW 0x00
-MOVWF TRISB
-BCF STATUS, RP0
-BSF PORTB, 0
